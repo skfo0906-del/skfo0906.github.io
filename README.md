@@ -65,7 +65,7 @@
     <input id="pw" type="password" placeholder="비밀번호를 입력하세요" autocomplete="off" />
     <button id="btn">열기</button>
   </div>
-  <div class="hint">힌트: <span class="tag">ㄷㅈ</span> <span class="tag">가보자고</span> <span class="tag">해보자고</span> — 힌트를 참고해주세요.</div>
+  <div class="hint">힌트: <span class="tag">무한</span> <span class="tag">가보자고</span> <span class="tag">해보자고</span> — 힌트를 참고해주세요.</div>
   <div class="err" id="err">비밀번호가 달라요. 다시 시도해요.</div>
   <div class="ok" id="ok">✔ 해제 성공! 메시지가 열립니다.</div>
 
