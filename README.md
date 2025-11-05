@@ -92,16 +92,21 @@ btn.addEventListener('click', unlock);
 pw.addEventListener('keyup', (e)=>{ if(e.key==='Enter') unlock(); });
 
 function unlock(){
-  err.style.display='none'; ok.style.display='none';
-  const value = (pw.value || '').trim().toLowerCase();  
+  // 
+  err.style.display='none';
+  ok.style.display='none';
+
+  // 
+  const value = (pw.value || '').trim().toLowerCase();
   const isValid = PASS.includes(value);
-  
-  if((pw.value||'').trim().toLowerCase() === PASS){
+
+  if (isValid){
     ok.style.display='block';
     msg.style.display='block';
-    pw.disabled = true; btn.disabled = true;
+    pw.disabled = true;
+    btn.disabled = true;
     startConfetti();
-  }else{
+  } else {
     err.style.display='block';
   }
 }
