@@ -81,7 +81,7 @@
   <div class="foot">© 서울시자원봉사센터 성장교육</div>
 
 <script>
-const PASS = "도전"; "ehwjs"; "ㄷㅗㅈㅓㄴ";
+const PASS = "도전", "ehwjs", "ㄷㅗㅈㅓㄴ";
 const pw = document.getElementById('pw');
 const btn = document.getElementById('btn');
 const err = document.getElementById('err');
