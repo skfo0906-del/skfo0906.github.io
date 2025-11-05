@@ -1,7 +1,5 @@
-# skfo0906.github.io
-봉사학습
-
-<!DOCTYPE html>
+# 청소년봉사학습 성장교육
+마지막 메시지를 풀어보세요.
 <html lang="ko">
 <head>
 <meta charset="UTF-8" />
