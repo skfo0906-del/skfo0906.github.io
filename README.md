@@ -1,4 +1,4 @@
-# 청소년봉사학습 성장교육
+# 청소년봉사학습 성장교육😀
 마지막 메시지를 풀어보세요.
 <html lang="ko">
 <head>
@@ -81,7 +81,7 @@
   <div class="foot">© 서울시자원봉사센터 성장교육</div>
 
 <script>
-const PASS = "도전";
+const PASS = "도전" or "ehwjs";
 const pw = document.getElementById('pw');
 const btn = document.getElementById('btn');
 const err = document.getElementById('err');
