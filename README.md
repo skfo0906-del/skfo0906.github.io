@@ -81,7 +81,7 @@
   <div class="foot">© 서울시자원봉사센터 성장교육</div>
 
 <script>
-const PASS = "도전", "ehwjs", "ㄷㅗㅈㅓㄴ";
+const PASS = ["도전", "ehwjs", "ㄷㅗㅈㅓㄴ"].map(v => v.toLowerCase());
 const pw = document.getElementById('pw');
 const btn = document.getElementById('btn');
 const err = document.getElementById('err');
@@ -93,6 +93,9 @@ pw.addEventListener('keyup', (e)=>{ if(e.key==='Enter') unlock(); });
 
 function unlock(){
   err.style.display='none'; ok.style.display='none';
+  const value = (pw.value || '').trim().toLowerCase();  
+  const isValid = PASS.includes(value);
+  
   if((pw.value||'').trim().toLowerCase() === PASS){
     ok.style.display='block';
     msg.style.display='block';
